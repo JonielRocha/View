@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,WAAO,CACN,OAAO,CAAC,MAAM",
+"sources": ["../scss/_header.scss"],
+"names": [],
+"file": "style.css"
+}
