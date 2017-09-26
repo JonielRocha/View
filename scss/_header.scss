@@ -11,11 +11,13 @@ body{
 				float: right;
 				width: 100%;
 				font-size: 0.88em;
+				border-bottom: 0.0625em dotted #d5d5d5;
 				> li{
 					display: inline;
 					> a{
 						text-decoration: none;
 						color:#2b2e2e;
+						font-family: "open_sanssemibold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 						> span{
 							padding: 0 4px 0 4px;
 							background: #d5d5d5;
@@ -23,7 +25,27 @@ body{
 						}
 					}
 				}
+				> #portal-siteactions{
+					float: left;
+					display: block;
+					margin-right: 4.34783%;
+					width: 30.43478%;
+					margin-left: 17.3913%;
+					margin-right: 0;
+					padding-bottom: 0.3125em;
+					> li{
+						display: inline;
+						> a{
+							padding: 0 0 0 6px;
+							text-decoration: none;
+							text-transform: uppercase;
+							font-size: 0.6875em;
+							font-family: "open_sanssemibold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+						}
+					}
+				}
 			}
+			
 			
 			> .logo-container{
 				@include make-xs-column(12);
