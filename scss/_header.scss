@@ -1,14 +1,39 @@
 body{
+
 	>header{
-		padding:25px 0;
+		padding:10px 0;
+		background:#f0f2f1;
 		> .content{
 			@include make-row;
+			> #accessibility{
+				padding-left: 5%;
+				display: block !important;
+				float: right;
+				width: 100%;
+				font-size: 0.88em;
+				> li{
+					display: inline;
+					> a{
+						text-decoration: none;
+						color:#2b2e2e;
+						> span{
+							padding: 0 4px 0 4px;
+							background: #d5d5d5;
+							color: #30ADE2;
+						}
+					}
+				}
+			}
+			
 			> .logo-container{
+				@include make-xs-column(12);
 				@include make-md-column(3);
+				@include make-sm-column(4);
+
 				> .logo-container__logo{
-					@include make-md-column(10);
-					@include make-xs-column(8);
-					@include make-xs-column-offset(1);
+					margin-right: 10%;
+					margin-left: 10%;
+					width:80%;
 				}
 			} 
 		}
@@ -30,14 +55,19 @@ body{
 							>li{
 								&.active{
 									>a{
-										background:#EFFFFF;
+										background:#f0f2f1;
 									}
 								}
 								a{
 									color:#2B2E2E;
 									font: bold 14px;
 									&:hover{
-										background:#EFFFFF;
+										background:#f0f2f1;
+										border-color:#090909;
+										font:16px;
+									}
+									&:visited{
+										color:#EEEEE;
 									}
 								}
 
