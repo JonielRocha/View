@@ -1,35 +1,52 @@
 body{
-   >header{
-      padding:25px 0;
-      > .content{
-         @include make-row;
-         > .logo-container{
-            @include make-md-column(3);
-            > .logo-container__logo{
-               @include make-md-column(10);
-               @include make-xs-column(8);
-               @include make-xs-column-offset(1);
-            }
-         } 
-      }
-      > #navegation{
-      	background:#3C9CFF;
-      	> .container{
-      		> #navegation__content{
-      			@include make-md-column(12);
-      			.navbar navbar-default{
-      				border-radius:0;
-      				box-shadow:none;
-      				border:none;
-      				background:#3C9CFF;
-      				
-      				.navbar-collapse{
-      					border:none;
+	>header{
+		padding:25px 0;
+		> .content{
+			@include make-row;
+			> .logo-container{
+				@include make-md-column(3);
+				> .logo-container__logo{
+					@include make-md-column(10);
+					@include make-xs-column(8);
+					@include make-xs-column-offset(1);
+				}
+			} 
+		}
+	}
+	> #navegation{
+		background:#30ADE2;
+		> .container{
+			#navegation__content{
+				@include make-md-column(12);
+				.navbar{
+					border-radius:none;
+					box-shadow: none;
+					border:none; 
+					background:#30ADE2;
+					margin-bottom: 0;
+					.navbar-collapse{
+						border:none;
+						>ul.navbar-nav{
+							>li{
+								&.active{
+									>a{
+										background:#EFFFFF;
+									}
+								}
+								a{
+									color:#2B2E2E;
+									font: bold 14px;
+									&:hover{
+										background:#EFFFFF;
+									}
+								}
 
-      				}
-      			}
-      		}
-      	}
-      }
-   }
+							}
+
+						}
+					}
+				}
+			}
+		}
+	}
 }
