@@ -20,13 +20,13 @@
 					</a>
 				</li>
 				<li>
-					<a accesskey="2" href="#anavigation" id="link-navegacao">
+					<a accesskey="2" href="#Home" id="link-navegacao">
 						Ir para o menu
 						<span>2</span>
 					</a>
 				</li>
 				<li>
-					<a accesskey="3" href="#SearchableText" id="link-buscar">
+					<a accesskey="3" href="#Cadastro" id="link-buscar">
 						Ir para cadastro
 						<span>3</span>
 					</a>
@@ -60,12 +60,12 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-								<li><a href="#">Sobre</a></li>
-								<li><a href="#">Intruções</a></li>
-								<li><a href="#">Consulta</a></li>
-								<li><a href="#">Cadastro</a></li>
-								<li><a href="#">Login</a></li>
-								<li><a href="#">Contato</a></li>
+								<li><a href="#Sobre">Sobre</a></li>
+								<li><a href="#Instruções">Intruções</a></li>
+								<li><a href="#Consulta">Consulta</a></li>
+								<li><a href="#Cadastro">Cadastro</a></li>
+								<li><a href="#Login">Login</a></li>
+								<li><a href="#Contato">Contato</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div>
@@ -73,6 +73,54 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+		<!-- Overlay -->
+		<div class="overlay"></div>
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#bs-carousel" data-slide-to="1"></li>
+			<li data-target="#bs-carousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item slides active">
+				<div class="slide-1"></div>
+				<div class="hero">
+					<hgroup>
+						<h1>SIMPLES E SEGURO</h1>        
+						<h3>Em parceria com a Policia Militar</h3>
+					</hgroup>
+					<button class="btn btn-hero btn-lg" role="button">Download</button>
+					<button class="btn btn-hero btn-lg" role="button">Saiba mais</button>
+				</div>
+			</div>
+			<div class="item slides">
+				<div class="slide-2"></div>
+				<div class="hero">        
+					<hgroup>
+						<h1>SIMPLES E SEGURO</h1>        
+						<h3>Aproveite e proteja-se</h3>
+					</hgroup>       
+					<button class="btn btn-hero btn-lg" role="button">Cadastre-se</button>
+				</div>
+			</div>
+			<div class="item slides">
+				<div class="slide-3"></div>
+				<div class="hero">        
+					<hgroup>
+						<h1>SIMPLES E SEGURO</h1>        
+						<h3>Aqui vai algumas dicas para a sua segurança</h3>
+					</hgroup>
+					<button class="btn btn-hero btn-lg" role="button">Dicas</button>
+				</div>
+			</div>
+		</div> 
+	</div>
+	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
