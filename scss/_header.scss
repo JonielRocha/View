@@ -25,25 +25,6 @@ body{
 						}
 					}
 				}
-				> #portal-siteactions{
-					float: left;
-					display: block;
-					margin-right: 4.34783%;
-					width: 30.43478%;
-					margin-left: 17.3913%;
-					margin-right: 0;
-					padding-bottom: 0.3125em;
-					> li{
-						display: inline;
-						> a{
-							padding: 0 0 0 6px;
-							text-decoration: none;
-							text-transform: uppercase;
-							font-size: 0.6875em;
-							font-family: "open_sanssemibold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-						}
-					}
-				}
 			}
 			
 			
@@ -88,10 +69,11 @@ body{
 										border-color:#090909;
 										font:16px;
 									}
-									&:visited{
+									
+								}
+								&:visited{
 										color:#EEEEE;
 									}
-								}
 
 							}
 

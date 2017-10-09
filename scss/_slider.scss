@@ -113,9 +113,9 @@
 /********************************/
 /*          Media Queries       */
 /********************************/
-@media screen and (min-width: 980px){
-    .hero { width: 980px; }    
+@media screen and (min-width: 360px){
+    .hero { width: 360px; }    
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 360px){
     .hero h1 { font-size: 4em; }    
 }
