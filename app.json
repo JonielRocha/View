@@ -1,0 +1,16 @@
+{
+  "name": "View",
+  "description": "detectado o celular",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
